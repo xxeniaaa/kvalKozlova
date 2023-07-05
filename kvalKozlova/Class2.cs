@@ -11,10 +11,10 @@ namespace kvalKozlova
     {
         public string Name { get; set; }
         public string Description { get; set; }
-        public Player(string nm, string dsc)
+        public Player(string nm, string dscp)
         {
             Name = nm;
-            Description = dsc;
+            Description = dscp;
         }
         public void Show()
         {
